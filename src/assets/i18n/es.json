@@ -5,5 +5,14 @@
   "Hi, I’m Ángel Vargas.": "Hola, soy Ángel Vargas.",
   "I'm a software developer": "Soy un desarrollador de software",
   "I specialize in back-end technologies like NodeJS, Java and .NET": "Me especializo en tecnologías back-end como NodeJS, Java y .NET",
-  "Check out my projects": "Mis proyectos"
+  "Check out my projects": "Mis proyectos",
+  "Web application in which businesses affected by the pandemic can sell their products and services online": "Aplicación web en la que los comercios afectados por la pandemia podrán vender sus productos y servicios online",
+  "CRUD Movies backend. Serverless, cloud native application with CI/CD pipelines": "Backend de películas CRUD. Aplicación nativa en la nube serverless con integración CI/CD",
+  "Personal portfolio, to show potential employers about my skills": "Proyecto de mí portafolio personal, muestra a los empleadores potenciales sobre habilidades",
+  "Contact me": "Contáctame",
+  "Send": "Enviar",
+  "Full name": "Nombre completo",
+  "Message": "Mensaje",
+  "My Phone": "Mi teléfono",
+  "My Address": "Mi dirección"
 }

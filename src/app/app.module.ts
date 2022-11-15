@@ -10,16 +10,24 @@ import { FooterComponent } from './footer/footer.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { ContactformComponent } from './contactform/contactform.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactinfoComponent } from './contactinfo/contactinfo.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    ContactformComponent,
+    ProjectsComponent,
+    ContactinfoComponent
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
@@ -28,7 +36,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

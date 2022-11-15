@@ -8,14 +8,14 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <a href="#" class="text-font-color px-3 py-2 rounded-md text-sm font-medium">{{ 'About me' | translate}}</a>
-            <a href="#" class="text-font-color px-3 py-2 rounded-md text-sm font-medium">{{ 'My projects' | translate }}</a>
-            <a href="#" class="text-font-color px-3 py-2 rounded-md text-sm font-medium">{{ 'Contact' | translate}}</a>
+            <a href="#my-projects" class="text-font-color px-3 py-2 rounded-md text-sm font-medium">{{ 'My projects' | translate }}</a>
+            <a href="#contact" class="text-font-color px-3 py-2 rounded-md text-sm font-medium">{{ 'Contact' | translate}}</a>
           </div>
           <div class="absolute top-0 right-0 h-16 w-16 ...">
             <button class="text-font-color px-3 py-2 rounded-md text-sm font-medium"
             (click)="changeAppLanguage()"
             >
-              {{ translate? 'Spanish' : 'English' }}
+              {{ translate? 'English' : 'Spanish' }}
             </button>
           </div>
         </div>
