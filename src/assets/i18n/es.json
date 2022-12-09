@@ -14,5 +14,7 @@
   "Full name": "Nombre completo",
   "Message": "Mensaje",
   "My Phone": "Mi teléfono",
-  "My Address": "Mi dirección"
+  "My Address": "Mi dirección",
+  "NestsJS backend framework implementation with docker": "Implementación del framework de back-end NestsJS con docker",
+  "Download CV": "Descargar CV"
 }
