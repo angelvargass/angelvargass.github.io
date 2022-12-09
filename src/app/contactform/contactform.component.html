@@ -4,17 +4,19 @@
   >
     {{ 'Contact me' | translate }}
   </h2>
-  <form class="mx-auto w-full pt-10 sm:w-3/4">
+  <form class="mx-auto w-full pt-10 sm:w-3/4" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="flex flex-col md:flex-row">
       <input
         class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
         placeholder="{{ 'Full name' | translate }}"
         type="text"
+        formControlName="fullName"
       />
       <input
         class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
         placeholder="Email"
         type="text"
+        formControlName="email"
       />
     </div>
     <textarea
@@ -22,13 +24,22 @@
       placeholder="{{ 'Message' | translate}}"
       cols="10"
       rows="5"
+      formControlName="message"
     ></textarea>
     <button
       class="mt-5 block bg-primary border border-complementary  px-5 py-3 text-center font-body text-xl font-semibold text-complementary transition-colors hover:bg-green sm:inline-block sm:text-left sm:text-2xl"
+      type="submit"
     >
       {{ 'Send' | translate }}
     </button>
+
+    <a href="assets/static/ÁNGEL%20VARGAS%20-%20CV.pdf" target="_blank"
+      class="mt-5 ml-2 block bg-complementary border border-complementary  px-5 py-3 text-center font-body text-xl font-semibold text-font-color transition-colors hover:bg-green sm:inline-block sm:text-left sm:text-2xl"
+    >
+      {{ 'Download CV' | translate }}
+    </a>
   </form>
+
 
 
 

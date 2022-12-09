@@ -14,6 +14,7 @@ import { ContactformComponent } from './contactform/contactform.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactinfoComponent } from './contactinfo/contactinfo.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContactinfoComponent
   ],
   imports: [
+    ReactiveFormsModule,
     BrowserModule,
     FontAwesomeModule,
     AppRoutingModule,
